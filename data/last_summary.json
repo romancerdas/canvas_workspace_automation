@@ -1,0 +1,328 @@
+{
+  "course": "Data Science Programming",
+  "downloaded_files": [
+    "Data Science Programming\\Assignments\\W13 End-of-Course Evaluation\\Attachments\\mediaBanner.jpg"
+  ],
+  "errors": [
+    "Course Files: Canvas denied access to this resource.",
+    "Assignment file 146862964: Canvas denied access to this resource.",
+    "Assignment file 146862912: Canvas denied access to this resource.",
+    "Assignment file 146862910: Canvas denied access to this resource.",
+    "Assignment file 163824774: Canvas denied access to this resource."
+  ],
+  "new_assignments": [
+    {
+      "due_at": "2026-05-03T05:59:59Z",
+      "name": "W02 Quiz: Icebreaker",
+      "updated_at": "2026-05-06T13:50:17Z"
+    },
+    {
+      "due_at": "2026-04-26T05:59:59Z",
+      "name": "W01 Quiz: Syllabus",
+      "updated_at": "2026-06-03T18:14:56Z"
+    },
+    {
+      "due_at": "2026-04-26T05:59:59Z",
+      "name": "W01 U0: Core Task 1 \u2014 Setup Checkpoint",
+      "updated_at": "2026-06-03T18:14:59Z"
+    },
+    {
+      "due_at": "2026-05-03T05:59:00Z",
+      "name": "W02 U0: Core Task 2 \u2014 Testing, Testing, 1,2,3",
+      "updated_at": "2026-05-07T01:50:30Z"
+    },
+    {
+      "due_at": null,
+      "name": "W04 U1: Stretch Task \u2014 Elliot",
+      "updated_at": "2026-05-11T14:44:59Z"
+    },
+    {
+      "due_at": "2026-05-31T05:59:59Z",
+      "name": "W06 U2: Stretch Task \u2014 Comparing Delay Types: Pivot",
+      "updated_at": "2026-06-10T21:37:55Z"
+    },
+    {
+      "due_at": "2026-06-14T05:59:59Z",
+      "name": "W08 U3: Stretch Task \u2014 Longevity and Highest Paid Positions",
+      "updated_at": "2026-06-24T21:06:21Z"
+    },
+    {
+      "due_at": "2026-06-28T05:59:59Z",
+      "name": "W10 U4: Stretch Task \u2014 Regression ML",
+      "updated_at": "2026-07-03T22:42:07Z"
+    },
+    {
+      "due_at": "2026-07-12T05:59:59Z",
+      "name": "W12 U5: Stretch Task \u2014 Can You Validate Me?",
+      "updated_at": "2026-07-18T20:10:40Z"
+    },
+    {
+      "due_at": "2026-05-03T05:59:59Z",
+      "name": "W02: Course Goals Letter (Beginning)",
+      "updated_at": "2026-05-06T14:10:00Z"
+    },
+    {
+      "due_at": "2026-06-07T05:59:59Z",
+      "name": "W07: Course Goals Letter (Mid)",
+      "updated_at": "2026-06-18T21:59:03Z"
+    },
+    {
+      "due_at": "2026-07-23T05:59:00Z",
+      "name": "W14: Course Goals Letter (End)",
+      "updated_at": "2026-07-18T06:00:01Z"
+    },
+    {
+      "due_at": null,
+      "name": "Course Grade",
+      "updated_at": "2026-04-02T16:46:52Z"
+    },
+    {
+      "due_at": "2026-07-23T05:59:00Z",
+      "name": "W14 Assignment: Coding Challenge",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-05-07T05:59:00Z",
+      "name": "W03 U1: Core Task 1 \u2014 Exploring Names",
+      "updated_at": "2026-06-03T18:14:59Z"
+    },
+    {
+      "due_at": "2026-05-10T05:59:00Z",
+      "name": "W03 U1: Core Task 2 \u2014 Famous Names and You",
+      "updated_at": "2026-06-03T18:15:00Z"
+    },
+    {
+      "due_at": "2026-05-14T05:59:00Z",
+      "name": "W04 U1: Core Task 3 \u2014 Creating New Columns",
+      "updated_at": "2026-05-16T23:56:22Z"
+    },
+    {
+      "due_at": "2026-06-04T05:59:59Z",
+      "name": "W07 U3: Core Task 1 \u2014 DataBaseBall",
+      "updated_at": "2026-06-18T21:17:58Z"
+    },
+    {
+      "due_at": "2026-06-07T05:59:59Z",
+      "name": "W07 U3: Core Task 2 \u2014 SQL",
+      "updated_at": "2026-06-10T21:30:00Z"
+    },
+    {
+      "due_at": "2026-06-11T05:59:59Z",
+      "name": "W08 U3: Core Task 3 \u2014 Joins",
+      "updated_at": "2026-06-24T16:48:05Z"
+    },
+    {
+      "due_at": "2026-05-21T05:59:59Z",
+      "name": "W05 U2: Core Task 1 \u2014 Flights: Column Creation",
+      "updated_at": "2026-06-03T18:15:03Z"
+    },
+    {
+      "due_at": "2026-05-24T05:59:59Z",
+      "name": "W05 U2: Core Task 2 \u2014 Flights: Aggregation",
+      "updated_at": "2026-06-03T18:15:03Z"
+    },
+    {
+      "due_at": "2026-05-28T05:59:59Z",
+      "name": "W06 U2: Core Task 3 \u2014 Missing Data",
+      "updated_at": "2026-06-17T01:38:55Z"
+    },
+    {
+      "due_at": "2026-06-18T05:59:00Z",
+      "name": "W09 U4: Core Task 1 \u2014 Can You Predict That?",
+      "updated_at": "2026-06-25T16:55:44Z"
+    },
+    {
+      "due_at": "2026-06-21T05:59:00Z",
+      "name": "W09 U4: Core Task 2 \u2014 How Good Is It, Really?",
+      "updated_at": "2026-07-17T21:26:01Z"
+    },
+    {
+      "due_at": "2026-06-25T05:59:00Z",
+      "name": "W10 U4: Core Task 3 \u2014 Show Me",
+      "updated_at": "2026-06-25T17:54:07Z"
+    },
+    {
+      "due_at": "2026-07-02T05:59:00Z",
+      "name": "W11 U5: Core Task 1 \u2014 Regex",
+      "updated_at": "2026-07-04T21:34:57Z"
+    },
+    {
+      "due_at": "2026-07-05T05:59:00Z",
+      "name": "W11 U5: Core Task 2 \u2014 Recoding Variables for ML",
+      "updated_at": "2026-07-10T18:33:54Z"
+    },
+    {
+      "due_at": "2026-07-09T05:59:00Z",
+      "name": "W12 U5: Core Task 3 \u2014 Star Wars for Dummies",
+      "updated_at": "2026-07-13T18:00:50Z"
+    },
+    {
+      "due_at": "2026-07-23T05:59:00Z",
+      "name": "W13 U6: Core Task 1 \u2014 Git Your DS Portfolio Online",
+      "updated_at": "2026-04-19T17:49:28Z"
+    },
+    {
+      "due_at": "2026-05-03T05:59:00Z",
+      "name": "W02 U0: Methods and Calculations Quiz",
+      "updated_at": "2026-05-06T13:50:19Z"
+    },
+    {
+      "due_at": "2026-05-17T05:59:00Z",
+      "name": "W04 U1: Methods and Calculations Quiz",
+      "updated_at": "2026-06-17T14:04:50Z"
+    },
+    {
+      "due_at": "2026-05-31T05:59:59Z",
+      "name": "W06 U2: Methods and Calculations Quiz",
+      "updated_at": "2026-06-17T14:04:51Z"
+    },
+    {
+      "due_at": "2026-06-14T05:59:59Z",
+      "name": "W08 U3: Methods and Calculations Quiz",
+      "updated_at": "2026-06-17T14:04:52Z"
+    },
+    {
+      "due_at": "2026-06-28T05:59:00Z",
+      "name": "W10 U4: Methods and Calculations Quiz",
+      "updated_at": "2026-06-17T14:04:53Z"
+    },
+    {
+      "due_at": "2026-07-12T05:59:00Z",
+      "name": "W12 U5: Methods and Calculations Quiz",
+      "updated_at": "2026-06-27T06:00:07Z"
+    },
+    {
+      "due_at": "2026-07-19T05:59:00Z",
+      "name": "W13 U6: Methods and Calculations Quiz",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-05-03T05:59:00Z",
+      "name": "W02 U0: Reading Quiz",
+      "updated_at": "2026-06-12T18:12:47Z"
+    },
+    {
+      "due_at": "2026-05-17T05:59:00Z",
+      "name": "W04 U1: Reading Quiz",
+      "updated_at": "2026-06-12T18:12:31Z"
+    },
+    {
+      "due_at": "2026-06-14T05:59:59Z",
+      "name": "W08 U3: Reading Quiz",
+      "updated_at": "2026-06-12T18:12:37Z"
+    },
+    {
+      "due_at": "2026-05-31T05:59:59Z",
+      "name": "W06 U2: Reading Quiz",
+      "updated_at": "2026-06-12T18:12:33Z"
+    },
+    {
+      "due_at": "2026-06-28T05:59:00Z",
+      "name": "W10 U4: Reading Quiz",
+      "updated_at": "2026-06-12T18:12:38Z"
+    },
+    {
+      "due_at": "2026-07-12T05:59:00Z",
+      "name": "W12 U5: Reading Quiz",
+      "updated_at": "2026-06-27T06:00:07Z"
+    },
+    {
+      "due_at": "2026-07-19T05:59:00Z",
+      "name": "W13 U6: Reading Quiz",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-05-03T05:59:00Z",
+      "name": "W02 U0: Critical Questioning",
+      "updated_at": "2026-05-06T13:50:20Z"
+    },
+    {
+      "due_at": "2026-05-17T05:59:00Z",
+      "name": "W04 U1: Critical Questioning",
+      "updated_at": "2026-05-06T13:28:24Z"
+    },
+    {
+      "due_at": "2026-06-14T05:59:59Z",
+      "name": "W08 U3: Critical Questioning",
+      "updated_at": "2026-05-06T13:28:34Z"
+    },
+    {
+      "due_at": "2026-05-31T05:59:59Z",
+      "name": "W06 U2: Critical Questioning",
+      "updated_at": "2026-05-16T06:00:04Z"
+    },
+    {
+      "due_at": "2026-06-28T05:59:00Z",
+      "name": "W10 U4: Critical Questioning",
+      "updated_at": "2026-05-06T13:28:22Z"
+    },
+    {
+      "due_at": "2026-07-12T05:59:00Z",
+      "name": "W12 U5: Critical Questioning",
+      "updated_at": "2026-06-27T06:00:06Z"
+    },
+    {
+      "due_at": "2026-07-19T05:59:00Z",
+      "name": "W13 U6: Critical Questioning",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-06-24T05:59:59Z",
+      "name": "W05 Student Feedback to Instructor",
+      "updated_at": "2026-05-06T13:28:51Z"
+    },
+    {
+      "due_at": "2026-07-23T05:59:59Z",
+      "name": "W13 End-of-Course Evaluation",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-07-23T05:59:59Z",
+      "name": "W14: Unit Stretch Quiz",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-07-23T05:59:59Z",
+      "name": "W14: Data Science Community Quiz",
+      "updated_at": "2026-07-11T06:00:12Z"
+    },
+    {
+      "due_at": "2026-06-07T05:59:00Z",
+      "name": "W07: Data Science Community Mid Checkpoint",
+      "updated_at": "2026-06-12T18:12:34Z"
+    },
+    {
+      "due_at": "2026-04-26T05:59:00Z",
+      "name": "Step 1: Create Digital Profiles",
+      "updated_at": "2026-04-18T19:38:58Z"
+    },
+    {
+      "due_at": "2026-05-10T05:59:00Z",
+      "name": "Step 2: Learn about Informational Interviews",
+      "updated_at": "2026-05-13T16:29:56Z"
+    },
+    {
+      "due_at": "2026-05-24T05:59:00Z",
+      "name": "Step 3: Conduct 1 Informational Interviews",
+      "updated_at": "2026-04-18T19:39:00Z"
+    },
+    {
+      "due_at": "2026-06-07T05:59:00Z",
+      "name": "Step 4: Enhance Your Interview Skills and Resume with VMock",
+      "updated_at": "2026-06-16T01:59:08Z"
+    },
+    {
+      "due_at": "2026-06-21T05:59:00Z",
+      "name": "Step 5: \"Me in 30 Seconds\" Pitch",
+      "updated_at": "2026-06-24T20:50:26Z"
+    },
+    {
+      "due_at": "2026-07-05T05:59:00Z",
+      "name": "Step 6: Meet with a Career Success Mentor",
+      "updated_at": "2026-07-08T22:33:41Z"
+    }
+  ],
+  "skipped_files": [],
+  "synced_at": "2026-07-22T21:08:17.374894+00:00",
+  "updated_assignments": []
+}

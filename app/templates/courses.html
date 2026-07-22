@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Courses — Canvas Workspace Automation{% endblock %}
+{% block content %}
+<section class="card">
+  <h2>Active Canvas courses</h2>
+  {% if courses %}
+  <div class="course-list">
+    {% for course in courses %}
+    <form method="post" action="{{ url_for('main.select_course') }}" class="course-row">
+      <input type="hidden" name="course_id" value="{{ course.id }}">
+      <input type="hidden" name="course_name" value="{{ course.name }}">
+      <div><strong>{{ course.name }}</strong><br><span class="muted">{{ course.course_code or '' }}</span></div>
+      <button type="submit">Select</button>
+    </form>
+    {% endfor %}
+  </div>
+  {% else %}<p>No active named courses were returned.</p>{% endif %}
+</section>
+{% endblock %}

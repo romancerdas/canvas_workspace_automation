@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Settings — Canvas Workspace Automation{% endblock %}
+{% block content %}
+<section class="card narrow">
+  <h2>Settings</h2>
+  <form method="post" class="stack">
+    <label>Canvas URL
+      <input name="canvas_url" type="url" required value="{{ config.canvas_url }}" placeholder="https://school.instructure.com/">
+    </label>
+    <label>Canvas access token
+      <input name="token" type="password" placeholder="Leave blank to keep saved token">
+    </label>
+    <label>Download directory
+      <input name="download_dir" required value="{{ config.download_dir }}">
+    </label>
+    <label>Weekly sync weekday (0–6)
+      <input name="sync_weekday" type="number" min="0" max="6" value="{{ config.sync_weekday }}">
+    </label>
+    <label>Weekly sync hour (0–23)
+      <input name="sync_hour" type="number" min="0" max="23" value="{{ config.sync_hour }}">
+    </label>
+    <button type="submit">Save settings</button>
+  </form>
+  <p class="muted">The token is stored locally in <code>data/config.json</code>. Do not commit that file.</p>
+</section>
+{% endblock %}

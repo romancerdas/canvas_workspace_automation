@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="grid">
+  <article class="card">
+    <h2>Selected course</h2>
+    {% if config.selected_course %}
+      <p class="large">{{ config.selected_course_name or config.selected_course }}</p>
+      <form method="post" action="{{ url_for('main.sync_now') }}">
+        <button type="submit">Run Weekly Sync Now</button>
+      </form>
+    {% else %}
+      <p>No course selected.</p>
+      <a class="button secondary" href="{{ url_for('main.courses') }}">Choose a course</a>
+    {% endif %}
+  </article>
+  <article class="card">
+    <h2>Schedule</h2>
+    <p>Weekly on weekday {{ config.sync_weekday }}, at {{ "%02d"|format(config.sync_hour) }}:00.</p>
+    <p class="muted">Weekday numbering: Monday = 0, Sunday = 6.</p>
+  </article>
+</section>
+
+{% if summary %}
+<section class="card">
+  <h2>Latest sync summary</h2>
+  <p><strong>{{ summary.course }}</strong> — {{ summary.synced_at }}</p>
+  <div class="stats">
+    <div><span>{{ summary.new_assignments|length }}</span>New assignments</div>
+    <div><span>{{ summary.updated_assignments|length }}</span>Updated assignments</div>
+    <div><span>{{ summary.downloaded_files|length }}</span>Downloaded files</div>
+    <div><span>{{ summary.skipped_files|length }}</span>Unchanged files</div>
+  </div>
+  {% if summary.new_assignments %}
+  <h3>New assignments</h3>
+  <ul>{% for item in summary.new_assignments %}<li>{{ item.name }}{% if item.due_at %} — due {{ item.due_at }}{% endif %}</li>{% endfor %}</ul>
+  {% endif %}
+  {% if summary.downloaded_files %}
+  <h3>Downloaded files</h3>
+  <ul>{% for item in summary.downloaded_files %}<li><code>{{ item }}</code></li>{% endfor %}</ul>
+  {% endif %}
+  {% if summary.errors %}
+  <h3>Warnings</h3>
+  <ul>{% for item in summary.errors %}<li>{{ item }}</li>{% endfor %}</ul>
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}
